@@ -24,6 +24,7 @@ typedef struct ARTICLE{
 } ARTICLE;
 
 typedef struct COMMANDE{
+	int num ;
 	int restau ;
   	int pid_client ;
 	ARTICLE commande [NUMERO_MAX_ARTICLES];
